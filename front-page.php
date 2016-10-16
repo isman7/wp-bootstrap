@@ -126,7 +126,7 @@
                         <div class="modal-body">
                             <h2><?php the_title(); ?></h2>
                             <hr class="star-primary">
-                            <img src="<?php the_post_thumbnail_url( $size ); ?> " class="img-responsive" alt="">
+                            <img src="<?php the_post_thumbnail_url(); ?> " class="img-responsive" alt="">
                             <?php the_content(); ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
