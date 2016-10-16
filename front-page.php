@@ -19,7 +19,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src=" " class="img-responsive" alt="">
+                    <img src="<?php the_post_thumbnail( 'full' );?> " class="img-responsive" alt="">
                 </a>
             </div>
             <?php endif; ?>
@@ -126,7 +126,7 @@
                         <div class="modal-body">
                             <h2><?php the_title(); ?></h2>
                             <hr class="star-primary">
-                            <img src="<?php the_post_thumbnail_url(); ?> " class="img-responsive" alt="">
+                            <img src="<?php the_post_thumbnail( 'full' ); ?> " class="img-responsive" alt="">
                             <?php the_content(); ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
