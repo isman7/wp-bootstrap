@@ -53,6 +53,7 @@
       			  <?php endif; ?> -->
               <a class="navbar-brand" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>
                 <img src="<?php echo esc_url( bloginfo('template_directory') . '/includes/img/logo.svg' ); ?>" alt="Fisitrónica" class="img-responsive">
+              </a>
             </div>
             <div class="navbar-collapse collapse">
          	<?php  /* menu */
