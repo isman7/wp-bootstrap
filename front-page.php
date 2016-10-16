@@ -19,7 +19,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?php the_post_thumbnail_url( $size ); ?> " class="img-responsive" alt="">
+                    <img src="<?php the_post_thumbnail_url(); ?> " class="img-responsive" alt="">
                 </a>
             </div>
             <?php endif; ?>
