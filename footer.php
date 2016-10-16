@@ -1,13 +1,5 @@
 	<hr class="featurette-divider" />
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-    	<p>&copy; 2013 <?php bloginfo('name'); ?> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    	<p>Designed by <a href="http://www.hillfold.com">HillFold</a></p>
-    	<p><a href="<?php bloginfo('rss2_url'); ?>">Latest Stories RSS</a> | <a href="<?php comments_rss_link('comment feed'); ?>">Comments RSS</a></p>
-      </footer>
-
     </div><!-- /.container -->
 
 
@@ -17,33 +9,26 @@
 		              <div class="container">
 		                  <div class="row">
 		                      <div class="footer-col col-md-4">
-		                          <h3>Location</h3>
-		                          <p>3481 Melrose Place
-		                              <br>Beverly Hills, CA 90210</p>
+		                          <h3>Facultat de Física</h3>
+															<h4>Universitat de Barcelona</h4>
+		                          <p>C/Martí i Franquès 1
+		                              <br>08028 Barcelona</p>
 		                      </div>
 		                      <div class="footer-col col-md-4">
-		                          <h3>Around the Web</h3>
+		                          <h3>Ens trobaràs a:</h3>
 		                          <ul class="list-inline">
 		                              <li>
-		                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+		                                  <a target="_blank" href="https://www.facebook.com/fisitronica/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
 		                              </li>
 		                              <li>
-		                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-		                              </li>
-		                              <li>
-		                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-		                              </li>
-		                              <li>
-		                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-		                              </li>
-		                              <li>
-		                                  <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+		                                  <a target="_blank" href="https://twitter.com/fisitronica" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
 		                              </li>
 		                          </ul>
 		                      </div>
 		                      <div class="footer-col col-md-4">
-		                          <h3>About Freelancer</h3>
-		                          <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+		                          <h3>Contacta</h3>
+		                          <p>Envians un correu a
+																<br> fisitronica<i class="fa fa-at" aria-hidden="true"></i>gmail.com</p>
 		                      </div>
 		                  </div>
 		              </div>
