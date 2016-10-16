@@ -10,8 +10,8 @@
             </div>
         </div>
         <div class="row">
-          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+          <!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <?php if ( in_category( 'cursos-ects' ) ) : ?>
             <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal<?php the_ID(); ?>" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -22,10 +22,10 @@
                     <img src="<?php the_post_thumbnail_url(); ?> " class="img-responsive" alt="">
                 </a>
             </div>
-            
+            <?php endif; ?>
           <?php endwhile; else : ?>
           <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-          <?php endif; ?>
+          <?php endif; ?> -->
         </div>
     </div>
 </section>
